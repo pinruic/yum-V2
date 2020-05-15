@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.container {
+    background-color: #fcb983;
+    width: 100%;
+    height:100vh;
+    position: fixed;
+}
+
+.logo {
+    display: block;
+    margin:auto;
+    margin-top: 4rem;
+    margin-bottom:2rem;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+form {
+    margin: 3rem;
+}
+
+form p{
+    color:#fa923f;
+    font-size: 2rem;
+    margin: 3px;
+    padding:0;
+    font-weight: bold;
+}
+
+form input{
+    width: 100%;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    border: 2px solid #fa923f;
+    outline: none;
+}
+
+.login-button {
+    width: 80%;
+    margin:auto;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 2px solid black;
+    background-color: #fa923f;
+    padding: 10px;
+    outline:none;
+    margin-top: 2rem;
+    color: white;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+
+@media(min-width:41rem){
+    .body{
+        background-color: white;
+    }
+    .container {
+        width: 450px;
+        height: 520px;
+        background-color: #fcb983;
+        top:50%;
+        left:50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        border-radius: 8px;
+        border: 3px solid black;
+        padding: 90px 30px;
+    }
+
+    .logo {
+        margin-top: 0;
+        width: 220px;
+        height: 200px;
+        position: absolute;
+        top: -110px;
+        left: calc(50% - 110px);   
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 2rem;
+        display: block;
+    }
+
+    .container p{
+        font-weight: bold;
+        font-size: 1.8rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container input{
+        width:100%;
+        margin-bottom: 1rem;
+
+    }
+
+    .container input{
+        border:none;
+        border-bottom:1px solid white;
+        background: transparent;
+        outline:none;
+        height: 40px;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .login-button {
+        border: none;
+        font-size: 20px;
+        border-radius: 16px;
+        border: 2px solid black;
+        background-color: #fa923f;
+        cursor: pointer;
+        padding: 10px;
+        width: 100%;
+        outline:none;
+        margin-top: 2rem;
+        color: white;
+    }
+
+    ::placeholder {
+        color: white;
+    }
+
+
+    .login-button:hover{
+        background-color: yellow;
+        outline:none;
+        color: #fa923f;
+    }
+}
+

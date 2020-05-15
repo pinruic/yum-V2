@@ -1,0 +1,54 @@
+.searchbar {
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 5px;
+}
+
+.searchbar input {
+    width:100%;
+    border: 3px solid #fa923f;
+    padding: 5px;
+    border-right: none;
+    height: 36px;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.searchbar button{
+    width: 50px;
+    height: 36px;
+    border: 3px solid #fa923f;
+    background: #fa923f;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    border-left: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+::placeholder {
+    color: #fa923f;
+}
+@media (min-width: 41rem) {
+    .searchbar-container {
+        width: 30%;
+        margin: 0 auto;
+        padding: 3rem 0;
+    }
+}
+
+.popular-recipes {
+    color: #fa923f;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+@media (min-width: 41rem){
+    .popular-recipes {
+        margin-left: 1rem;
+    }
+}

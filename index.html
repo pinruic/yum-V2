@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Yum!</title>
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <div>
+            <div class="hamburger-menu">
+                <img src="images/hamburger-menu.png" alt="" class="hamburger-menu-icon">
+            </div>
+
+            <a href="index.html" class="main-header__brand">
+                <img src="images/yum-logo.png" alt="">
+            </a>
+        </div>
+
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="current-plan/index.html">Current Plan</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="create-plan/index.html">Create Plan</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="log-out/index.html">Log Out</a>
+                </li>
+                <li class="main-nav__item main-nav__item--cta">
+                    <a href="upgrade-pro/index.html">Upgrade to Pro</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="current-plan/index.html">Current Plan</a>
+            </li>
+            <hr>
+            <li class="mobile-nav__item">
+                <a href="create-plan/index.html">Create Plan</a>
+            </li>
+            <hr>
+            <li class="mobile-nav__item">
+                <a href="log-out/index.html">Log Out</a>
+            </li>
+            <hr>
+            <li class="mobile-nav__item mobile-nav__item--cta">
+                <a href="upgrade-pro/index.html">Upgrade to Pro</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="searchbar">
+            <div class="searchbar-container">
+                <div class="searchbar">
+                    <input type="text" placeholder="Find a recipe...">
+                    <button type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </section> 
+        
+        <section id="poplular-recipes">
+            <h1 class="popular-recipes">
+                Popular recipes
+            </h1>
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>PinRui Chen</p>
+    </footer>
+
+    <script src="shared.js"></script>
+</body>
+</html>
